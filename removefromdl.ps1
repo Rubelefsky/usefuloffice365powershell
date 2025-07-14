@@ -7,8 +7,7 @@ $userEmail = "user@email.com"
 # List of DLs to remove the user from (can be group names or email addresses)
 $distributionLists = @(
     "dl@email.com",
-    "dl@email.com"
-    
+    "dl@email.com"  
 )
 
 foreach ($dl in $distributionLists) {
